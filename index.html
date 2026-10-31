@@ -44,7 +44,7 @@ function calc(){
  audio.pause();
  audio.removeAttribute("src");
  audio.load();
- audio.src="audio/"+experience+".mp3";
+ audio.src=experience+".mp3";
  audio.load();
  audio.playbackRate=Number(byId("audioSpeed").value);
  byId("audioError").style.display="none";
